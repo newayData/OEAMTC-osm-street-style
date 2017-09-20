@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "OSM Bright",
+  "name": "OEAMTC-osm-street-style",
   "metadata": {
     "mapbox:type": "template",
     "mapbox:groups": {
