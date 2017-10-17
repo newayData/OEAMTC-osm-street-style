@@ -1169,7 +1169,7 @@
       "layout": {
         "line-cap": "square",
         "line-join": "bevel",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "line-color": "rgba(255, 255, 255, 1)",
@@ -1323,7 +1323,7 @@
       "layout": {
         "line-cap": "butt",
         "line-join": "miter",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "line-color": "#dedede",
@@ -1491,8 +1491,7 @@
       ],
       "layout": {
         "line-cap": "round",
-        "line-join": "round",
-        "visibility": "visible"
+        "line-join": "round"
       },
       "paint": {
         "line-color": "hsla(0, 8%, 22%, 0.51)",
@@ -1533,8 +1532,8 @@
       "layout": {
         "text-size": 11,
         "text-font": [
-          "Klokantech Noto Sans Regular",
-          "Klokantech Noto Sans CJK Regular"
+          "Open Sans Regular",
+          "Open Sans Regular"
         ],
         "visibility": "visible",
         "text-offset": [
@@ -1547,10 +1546,10 @@
         "text-max-width": 8
       },
       "paint": {
-        "text-color": "#666",
-        "text-halo-width": 1,
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-width": 2,
         "text-halo-color": "rgba(255,255,255,0.75)",
-        "text-halo-blur": 1
+        "text-halo-blur": 0
       }
     },
     {
@@ -1567,8 +1566,8 @@
         "symbol-placement": "line",
         "text-field": "{name}",
         "text-font": [
-          "Klokantech Noto Sans Regular",
-          "Klokantech Noto Sans CJK Regular"
+          "Open Sans Regular",
+          "Open Sans Regular"
         ],
         "text-transform": "uppercase",
         "text-letter-spacing": 0.1,
@@ -1612,8 +1611,8 @@
       "layout": {
         "text-field": "{name} {ele} m",
         "text-font": [
-          "Klokantech Noto Sans Regular",
-          "Klokantech Noto Sans CJK Regular"
+          "Open Sans Italic",
+          "Open Sans Italic"
         ],
         "text-max-width": 6,
         "text-size": {
@@ -1632,7 +1631,7 @@
         "text-anchor": "center"
       },
       "paint": {
-        "text-color": "hsl(0, 10%, 25%)",
+        "text-color": "rgba(0, 0, 0, 1)",
         "text-halo-color": "hsl(0, 0%, 100%)",
         "text-halo-blur": 0,
         "text-halo-width": 2
@@ -1660,8 +1659,8 @@
       "layout": {
         "text-field": "{name}",
         "text-font": [
-          "Klokantech Noto Sans Regular",
-          "Klokantech Noto Sans CJK Regular"
+          "Open Sans Regular",
+          "Open Sans Regular"
         ],
         "text-max-width": 6,
         "text-size": {
@@ -1680,10 +1679,21 @@
         "text-anchor": "center"
       },
       "paint": {
-        "text-color": "hsl(0, 10%, 25%)",
+        "text-color": "rgba(0, 0, 0, 1)",
         "text-halo-color": "hsl(0, 0%, 100%)",
         "text-halo-blur": 0,
-        "text-halo-width": 2
+        "text-halo-width": {
+          "stops": [
+            [
+              12,
+              1
+            ],
+            [
+              15,
+              2
+            ]
+          ]
+        }
       }
     },
     {
@@ -1708,8 +1718,8 @@
       "layout": {
         "text-field": "{name}",
         "text-font": [
-          "Klokantech Noto Sans Regular",
-          "Klokantech Noto Sans CJK Regular"
+          "Open Sans Regular",
+          "Open Sans Regular"
         ],
         "text-max-width": 10,
         "text-size": {
@@ -1723,11 +1733,10 @@
               16
             ]
           ]
-        },
-        "visibility": "visible"
+        }
       },
       "paint": {
-        "text-color": "hsl(0, 0%, 0%)",
+        "text-color": "rgba(0, 0, 0, 1)",
         "text-halo-color": "hsla(0, 0%, 100%, 0.75)",
         "text-halo-blur": 0,
         "text-halo-width": 2
@@ -1755,8 +1764,8 @@
       "layout": {
         "text-field": "{name}",
         "text-font": [
-          "Klokantech Noto Sans Bold",
-          "Klokantech Noto Sans CJK Bold"
+          "Open Sans Regular",
+          "Open Sans Regular"
         ],
         "text-max-width": 10,
         "text-size": {
@@ -1774,7 +1783,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "hsl(0, 0%, 13%)",
+        "text-color": "rgba(0, 0, 0, 1)",
         "text-halo-color": "rgba(255,255,255,0.75)",
         "text-halo-width": 2,
         "text-halo-blur": 0
